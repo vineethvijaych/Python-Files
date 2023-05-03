@@ -1,0 +1,1 @@
+#write program to find the lowest multiple (LCM) of two numbers using a for loop
