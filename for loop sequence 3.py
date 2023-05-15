@@ -1,0 +1,1 @@
+#write a program to reserve a given string using a for loop
