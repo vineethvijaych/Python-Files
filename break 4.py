@@ -1,0 +1,1 @@
+#write a program that takes a list of words as input and finds the first word with more than five characters using a for loop and a break statement
