@@ -1,0 +1,1 @@
+#write a program that takes a list of items as input and stops processing the list when it encounters the first item that is no longer needed . for excample , finding the first item ina grocery list that has been purchased 
