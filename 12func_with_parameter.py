@@ -1,0 +1,1 @@
+#create a function called 'capitalize_names' that takes a list of names as an argument and returns a new list with the names capitalized
