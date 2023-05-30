@@ -8,5 +8,5 @@ for i in range(1,11):
     print(b)
 def find_maximum(a):
     find_maximum=max(a)
-    print(find_maximum)
-find_maximum(b)
+    return find_maximum
+print(find_maximum(b))

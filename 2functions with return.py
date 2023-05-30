@@ -3,5 +3,5 @@
 r=int(input("enter the radius:"))
 def calculate_area(r):
     calculate_area=(3.14)*(r*r)
-    print(calculate_area)
-calculate_area(r)
+    return calculate_area
+print(calculate_area(r))

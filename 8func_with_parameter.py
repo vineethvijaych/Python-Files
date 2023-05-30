@@ -1,7 +1,13 @@
-#define a funtion named 'convert temperature' that takes a temperature in celsius as an argument and returns the temperature in fahrenheit
-#Temperature in degrees Fahrenheit (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32
-a=int(input("enter temperature in celsius:"))
-def convert_temperature(a):
-    convert_temperature=((a)*(9/5))+32
-    print(convert_temperature)
-convert_temperature(a)
+#write a function called 'check palindrome ' that takes a string as an argument and returns 'true' if the string is a palindrome (reads the same forwads and backwards) and 'false' otherwise
+a=input("enter a word:")
+b=[]
+def check_palindrome(a):
+    if a==a[::-1]:
+        print("true")
+    else:
+        print("false")    
+    
+check_palindrome(a)
+
+check_palindrome("man")
+check_palindrome("eye")

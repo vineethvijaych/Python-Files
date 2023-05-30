@@ -1,13 +1,10 @@
-#write a function called 'check palindrome ' that takes a string as an argument and returns 'true' if the string is a palindrome (reads the same forwads and backwards) and 'false' otherwise
-a=input("enter a word:")
-b=[]
-def check_palindrome(a):
-    if a==a[::-1]:
-        print("true")
-    else:
-        print("false")    
-    
-check_palindrome(a)
+#write a function called 'is_even_odd' that takes a number as an argument abd returns "even" if the number is even , and "odd" if teh number is odd
+a=int(input("enter a number:"))
 
-check_palindrome("man")
-check_palindrome("eye")
+def is_even_odd(a):
+    if a%2==0:
+        print("even")
+    else:
+        print("odd")    
+    
+is_even_odd(a)

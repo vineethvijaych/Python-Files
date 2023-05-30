@@ -1,7 +1,13 @@
-#write a function named 'calculate_area' that takes the radius of a circle as an argument and returns the area of the circle 
-#A=πr2
-r=int(input("enter the radius:"))
-def calculate_area(r):
-    calculate_area=(3.14)*(r*r)
-    print(calculate_area)
-calculate_area(r)
+# create function called 'count_vowels' that takes astring as an argument and returns the number of vowels in the string
+st=input("enter name:")
+a=["a","e","i","o","u"]
+def count_vowels(a):
+    i=0
+    c=0
+    while i<len(st):
+        if st[i] in a:
+            c+=1
+        i+=1
+    count_vowels=print(c)
+print(count_vowels)
+count_vowels(a)    

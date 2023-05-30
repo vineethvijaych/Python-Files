@@ -3,5 +3,5 @@
 a=int(input("enter temperature in celsius:"))
 def convert_temperature(a):
     convert_temperature=((a)*(9/5))+32
-    print(convert_temperature)
-convert_temperature(a)
+    return convert_temperature
+print(convert_temperature(a))
