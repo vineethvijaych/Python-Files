@@ -27,7 +27,7 @@ a=employee(1500)
 d.dis_department()
 p.dis_name()
 p.dis_age()
-d.dis_salary()
+a.dis_salary()
 
 
 
